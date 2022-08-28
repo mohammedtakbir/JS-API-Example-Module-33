@@ -29,7 +29,6 @@ searchFood = () => {
     const searchField = document.getElementById('search-field');
     const searchInput = searchField.value;
     searchField.value = '';
-    // console.log(searchInput)
     loadMeals(searchInput)
 }
 
